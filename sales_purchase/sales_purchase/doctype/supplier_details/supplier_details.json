@@ -1,0 +1,66 @@
+{
+ "actions": [],
+ "autoname": "SD.####",
+ "creation": "2021-08-27 14:37:29.476602",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "suppliers_company",
+  "contact_number",
+  "email_id",
+  "address",
+  "data_5"
+ ],
+ "fields": [
+  {
+   "fieldname": "suppliers_company",
+   "fieldtype": "Data",
+   "label": "SUPPLIER'S COMPANY"
+  },
+  {
+   "fieldname": "contact_number",
+   "fieldtype": "Int",
+   "label": "CONTACT NUMBER"
+  },
+  {
+   "fieldname": "email_id",
+   "fieldtype": "Data",
+   "label": "EMAIL ID"
+  },
+  {
+   "fieldname": "address",
+   "fieldtype": "Data",
+   "label": "ADDRESS"
+  },
+  {
+   "fieldname": "data_5",
+   "fieldtype": "Data"
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "links": [],
+ "modified": "2021-08-27 16:19:26.129454",
+ "modified_by": "Administrator",
+ "module": "Sales Purchase",
+ "name": "SUPPLIER DETAILS",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "System Manager",
+   "share": 1,
+   "write": 1
+  }
+ ],
+ "quick_entry": 1,
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "track_changes": 1
+}

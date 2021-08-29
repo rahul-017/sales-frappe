@@ -1,0 +1,69 @@
+{
+ "actions": [],
+ "autoname": "CI.####",
+ "creation": "2021-08-27 15:04:42.116450",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "cn",
+  "item",
+  "qop",
+  "date",
+  "time"
+ ],
+ "fields": [
+  {
+   "fieldname": "cn",
+   "fieldtype": "Link",
+   "label": "CUSTOMER NAME",
+   "options": "CUSTOMER DETAILS"
+  },
+  {
+   "fieldname": "item",
+   "fieldtype": "Link",
+   "label": "ITEM",
+   "options": "ITEM DETAILS"
+  },
+  {
+   "fieldname": "qop",
+   "fieldtype": "Int",
+   "label": "QUANTITY OF THE PRODUCT"
+  },
+  {
+   "fieldname": "date",
+   "fieldtype": "Date",
+   "label": "DATE"
+  },
+  {
+   "fieldname": "time",
+   "fieldtype": "Time",
+   "label": "TIME"
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "links": [],
+ "modified": "2021-08-27 18:00:42.659377",
+ "modified_by": "Administrator",
+ "module": "Sales Purchase",
+ "name": "CUSTOMER INVOICE",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "System Manager",
+   "share": 1,
+   "write": 1
+  }
+ ],
+ "quick_entry": 1,
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "track_changes": 1
+}

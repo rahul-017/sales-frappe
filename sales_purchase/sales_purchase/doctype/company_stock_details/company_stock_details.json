@@ -1,0 +1,57 @@
+{
+ "actions": [],
+ "autoname": "CSD.####",
+ "creation": "2021-08-27 15:22:44.200516",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "item_name",
+  "current_stock",
+  "is_current_stocks_sufficent"
+ ],
+ "fields": [
+  {
+   "fieldname": "item_name",
+   "fieldtype": "Link",
+   "label": "ITEM NAME",
+   "options": "ITEM DETAILS"
+  },
+  {
+   "fieldname": "current_stock",
+   "fieldtype": "Int",
+   "label": "CURRENT STOCK"
+  },
+  {
+   "fieldname": "is_current_stocks_sufficent",
+   "fieldtype": "Select",
+   "label": "IS CURRENT STOCKS SUFFICENT",
+   "options": "YES\nNO"
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "links": [],
+ "modified": "2021-08-27 15:44:18.101331",
+ "modified_by": "Administrator",
+ "module": "Sales Purchase",
+ "name": "COMPANY STOCK DETAILS",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "System Manager",
+   "share": 1,
+   "write": 1
+  }
+ ],
+ "quick_entry": 1,
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "track_changes": 1
+}
