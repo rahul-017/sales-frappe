@@ -1,0 +1,68 @@
+{
+ "actions": [],
+ "autoname": "ID.####",
+ "creation": "2021-08-27 14:23:22.504550",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "name1",
+  "item_code",
+  "brand_name",
+  "category",
+  "product_detail"
+ ],
+ "fields": [
+  {
+   "fieldname": "name1",
+   "fieldtype": "Data",
+   "label": "NAME"
+  },
+  {
+   "fieldname": "item_code",
+   "fieldtype": "Data",
+   "label": "ITEM CODE"
+  },
+  {
+   "fieldname": "brand_name",
+   "fieldtype": "Data",
+   "label": "BRAND NAME"
+  },
+  {
+   "fieldname": "category",
+   "fieldtype": "Select",
+   "label": "CATEGORY",
+   "options": "COSMETICS\nGROCERY\nPOULTRY"
+  },
+  {
+   "fieldname": "product_detail",
+   "fieldtype": "Text Editor",
+   "label": "PRODUCT DETAIL"
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "links": [],
+ "modified": "2021-09-01 20:44:07.620822",
+ "modified_by": "Administrator",
+ "module": "Sales Purchase",
+ "name": "ITEM DETAILS",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "System Manager",
+   "share": 1,
+   "write": 1
+  }
+ ],
+ "quick_entry": 1,
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "track_changes": 1
+}

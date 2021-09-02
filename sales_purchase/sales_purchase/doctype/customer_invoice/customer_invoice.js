@@ -2,7 +2,7 @@
 // For license information, please see license.txt
 
 frappe.ui.form.on('CUSTOMER INVOICE', {
-	// refresh: function(frm) {
-
-	// }
+	 refresh: function(frm) {
+      frappe.msgprint("YOU ARE IN CUSTOMER INVOICE DOCTYPE")
+	 }
 });

@@ -1,49 +1,48 @@
 {
  "actions": [],
- "autoname": "SI.####",
- "creation": "2021-08-27 16:11:54.278342",
+ "creation": "2021-09-01 16:10:12.692131",
  "doctype": "DocType",
  "editable_grid": 1,
  "engine": "InnoDB",
  "field_order": [
   "sn",
-  "iname",
-  "qty",
-  "date",
-  "time"
+  "item",
+  "cp",
+  "quantity",
+  "total"
  ],
  "fields": [
   {
    "fieldname": "sn",
    "fieldtype": "Link",
-   "label": "SUPPLIER NAME",
+   "label": "SUPPLIER'S NAME",
    "options": "SUPPLIER DETAILS"
   },
   {
-   "fieldname": "iname",
+   "fieldname": "item",
    "fieldtype": "Link",
-   "label": "ITEM NAME",
+   "label": "ITEM",
    "options": "ITEM DETAILS"
   },
   {
-   "fieldname": "qty",
-   "fieldtype": "Int",
+   "fieldname": "cp",
+   "fieldtype": "Data",
+   "label": "COST PRICE"
+  },
+  {
+   "fieldname": "total",
+   "fieldtype": "Data",
+   "label": "TOTAL AMOUNT"
+  },
+  {
+   "fieldname": "quantity",
+   "fieldtype": "Data",
    "label": "QUANTITY"
-  },
-  {
-   "fieldname": "date",
-   "fieldtype": "Date",
-   "label": "DATE"
-  },
-  {
-   "fieldname": "time",
-   "fieldtype": "Time",
-   "label": "TIME"
   }
  ],
  "index_web_pages_for_search": 1,
  "links": [],
- "modified": "2021-08-27 17:03:10.619318",
+ "modified": "2021-09-02 13:25:01.939173",
  "modified_by": "Administrator",
  "module": "Sales Purchase",
  "name": "SUPPLIER INVOICE",
@@ -62,7 +61,6 @@
    "write": 1
   }
  ],
- "quick_entry": 1,
  "sort_field": "modified",
  "sort_order": "DESC",
  "track_changes": 1

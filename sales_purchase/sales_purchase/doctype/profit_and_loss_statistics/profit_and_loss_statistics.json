@@ -1,0 +1,73 @@
+{
+ "actions": [],
+ "autoname": "PLS.####",
+ "creation": "2021-09-01 15:17:40.844410",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "item_",
+  "cpot",
+  "selling_price_of_the_product",
+  "quantity_sold",
+  "profit"
+ ],
+ "fields": [
+  {
+   "fieldname": "item_",
+   "fieldtype": "Link",
+   "in_list_view": 1,
+   "label": "ITEM",
+   "options": "ITEM DETAILS",
+   "reqd": 1
+  },
+  {
+   "fieldname": "cpot",
+   "fieldtype": "Float",
+   "in_list_view": 1,
+   "label": "COST PRICE"
+  },
+  {
+   "fieldname": "selling_price_of_the_product",
+   "fieldtype": "Float",
+   "in_list_view": 1,
+   "label": "SELLING PRICE"
+  },
+  {
+   "fieldname": "profit",
+   "fieldtype": "Data",
+   "label": "PROFIT/LOSS"
+  },
+  {
+   "fetch_from": "COMPANY STOCK DETAILS.current_stock",
+   "fieldname": "quantity_sold",
+   "fieldtype": "Int",
+   "label": "QUANTITY SOLD"
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "links": [],
+ "modified": "2021-09-02 23:35:59.336797",
+ "modified_by": "Administrator",
+ "module": "Sales Purchase",
+ "name": "PROFIT AND LOSS STATISTICS",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "System Manager",
+   "share": 1,
+   "write": 1
+  }
+ ],
+ "quick_entry": 1,
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "track_changes": 1
+}
